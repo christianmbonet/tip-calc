@@ -10,9 +10,9 @@ const partySize = readlineSync.questionInt("How many people are in your party? "
 const tipPercentage = readlineSync.questionFloat("What % would you like to tip? ")
 
 // Repeat all those things back to the user.
-console.log(`The total amount of your bill is $${total.Amount.toFixed(2)}.`);
-console.log(`The total part size is ${partySize}.`);
-console.log(`With a tip of ${tipPercentage}%.`);
+console.log(`The total amount of your bill is $${totalAmount.toFixed(2)}`);
+console.log(`The total part size is ${partySize}`);
+console.log(`With a tip of ${tipPercentage}%`);
 
 // The bill tip is the the tip percentage divided by 100.
 let percentage = tipPercentage / 100;
