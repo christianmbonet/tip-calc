@@ -1,0 +1,8 @@
+{
+  "name": "tip-calc",
+  "version": "1.0.0",
+  "main": "tip-calc.js",
+  "repository": "git@github.com:christianmbonet/tip-calc.git",
+  "author": "christianmbonet <christianm.bonet@gmail.com>",
+  "license": "MIT"
+}
