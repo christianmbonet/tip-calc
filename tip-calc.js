@@ -7,7 +7,7 @@ const totalAmount = readlineSync.questionFloat("What's the total amount of the b
 const partySize = readlineSync.questionInt("How many people are in your party? ");
 
 // Get % tip from the user.
-const tipPercentage = readlineSync.questionFloat("What % would you like to tip?")
+const tipPercentage = readlineSync.questionFloat("What % would you like to tip? ")
 
 // Repeat all those things back to the user.
 console.log(`The total amount of your bill is $${total.Amount.toFixed(2)}.`);
